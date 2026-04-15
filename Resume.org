@@ -4,7 +4,7 @@
 #+OPTIONS: toc:nil num:nil author:nil title:nil
 
 * Contact
-West Allis, WI • 262-825-7812 • nathanjbarlow@gmail.com • [[https://linkedin.com/in/nathanjamesbarlow][linkedin.com/in/nathanjamesbarlow]] • [[https://sr.ht/~nathanb/][sr.ht/~nathanb/]]
+West Allis, WI • 262-825-7812 • nathanjbarlow@gmail.com • [[https://linkedin.com/in/nathanjamesbarlow][linkedin.com/in/nathanjamesbarlow]] • [[https://github.com/soniccyclone][github.com/soniccyclone]]
 
 * Skills
 - *AI/ML:* CrewAI, Databricks, LLM Agents, RAG, Prompt Engineering, Agentic Systems, OpenSpec
