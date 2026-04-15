@@ -4,7 +4,7 @@
 #+OPTIONS: toc:nil num:nil author:nil title:nil
 
 * Contact
-West Allis, WI • 262-825-7812 • nathanjbarlow@gmail.com • [[https://linkedin.com/in/nathanjamesbarlow][linkedin.com/in/nathanjamesbarlow]] • [[https://github.com/soniccyclone][github.com/soniccyclone]]
+Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/nathanjamesbarlow][linkedin.com/in/nathanjamesbarlow]] • [[https://github.com/soniccyclone][github.com/soniccyclone]]
 
 * Skills
 - *AI/ML:* CrewAI, Databricks, LLM Agents, RAG, Prompt Engineering, Agentic Systems, OpenSpec
@@ -17,8 +17,7 @@ West Allis, WI • 262-825-7812 • nathanjbarlow@gmail.com • [[https://linked
 /Senior Software Engineer/
 - Architecting a templated agentic search engine for healthcare payor policy lookup, enabling automated retrieval and reasoning over complex coverage rules using CrewAI and Python on Databricks
 - Designing multi-agent orchestration pipelines that decompose natural language policy queries into structured search, retrieval, and synthesis stages
-- Using OpenSpec to manage spec-driven development with AI coding assistants, maintaining living functional specifications as delta specs within the codebase to govern agent and system behavior across a brownfield architecture
-- Combining OpenSpec, Beads, and GitHub Copilot into a spec-driven AI development workflow where living specs govern what to build, Beads provides persistent task memory and work discovery for the agent, Copilot accelerates implementation against that shared context, and automated testing tightens the feedback loop to maximize agentic iteration velocity
+- Built a spec-driven AI development workflow where OpenSpec governs agent behavior through living specs, Beads provides persistent task memory and work discovery, Copilot accelerates implementation against that shared context, and automated testing tightens the feedback loop for agentic iteration velocity
 
 ** Stanza Systems =2024 – 2025=
 /Software Engineer/
