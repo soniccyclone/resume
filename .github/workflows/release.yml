@@ -1,0 +1,50 @@
+name: Build PDF and attach to Release
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc python3-pip
+          pip install weasyprint --break-system-packages
+
+      - name: Build HTML
+        run: |
+          pandoc Resume.org \
+            --standalone \
+            --css=style.css \
+            --self-contained \
+            --metadata title="Nathan Barlow" \
+            --metadata subtitle="Senior Software Engineer" \
+            -o resume.html
+
+      - name: Render PDF
+        run: weasyprint resume.html Nathan_Barlow_Resume.pdf
+
+      - name: Upload PDF to release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "${{ github.event.release.tag_name }}" \
+            Nathan_Barlow_Resume.pdf \
+            --clobber
+
+      - name: Upload PDF as artifact (manual runs)
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: Nathan_Barlow_Resume.pdf
