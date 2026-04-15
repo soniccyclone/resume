@@ -1,8 +1,8 @@
-name: Build PDF and attach to Release
+name: Build PDF and cut Release
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -33,18 +33,20 @@ jobs:
       - name: Render PDF
         run: weasyprint resume.html Nathan_Barlow_Resume.pdf
 
-      - name: Upload PDF to release
-        if: github.event_name == 'release'
+      - name: Compute release tag
+        id: tag
+        run: |
+          DATE=$(date -u +%Y.%m.%d)
+          SHORT=$(git rev-parse --short HEAD)
+          echo "tag=v${DATE}-${SHORT}" >> "$GITHUB_OUTPUT"
+          echo "name=Resume ${DATE//./-}" >> "$GITHUB_OUTPUT"
+
+      - name: Create release with PDF
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload "${{ github.event.release.tag_name }}" \
+          gh release create "${{ steps.tag.outputs.tag }}" \
             Nathan_Barlow_Resume.pdf \
-            --clobber
-
-      - name: Upload PDF as artifact (manual runs)
-        if: github.event_name == 'workflow_dispatch'
-        uses: actions/upload-artifact@v4
-        with:
-          name: resume-pdf
-          path: Nathan_Barlow_Resume.pdf
+            --title "${{ steps.tag.outputs.name }}" \
+            --target "${{ github.sha }}" \
+            --generate-notes
