@@ -15,7 +15,7 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 * Experience
 ** Nearform =2025 – Present=
 /Senior Software Engineer/
-- Created a CrewAI backed chat agent with internal knowledge base lookup as well as broader agentic web search tools
+- Created a CrewAI backed chat agent with internal knowledge base lookup as well as agentic web search tools
 - Worked on an agentic search engine for healthcare payor policy lookup
 - Designed multi-agent pipelines decomposing natural language queries into search, retrieval, and synthesis stages
 
