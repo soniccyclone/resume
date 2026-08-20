@@ -14,24 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc python3-pip
-          pip install -r requirements.txt --break-system-packages
-
-      - name: Build HTML
-        run: |
-          pandoc Resume.org \
-            --standalone \
-            --css=style.css \
-            --self-contained \
-            --metadata title="Nathan Barlow" \
-            --metadata subtitle="Senior Software Engineer" \
-            -o resume.html
-
       - name: Render PDF
-        run: weasyprint resume.html Nathan_Barlow_Resume.pdf
+        run: make pdf
 
       - name: Compute release tag
         id: tag
