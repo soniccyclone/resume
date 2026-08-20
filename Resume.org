@@ -49,7 +49,7 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 - Doubled performance of order monitoring system while increasing granularity of reported data
 
 * Projects
-** *necklace* — Agentic spec-driven development toolkit [[https://github.com/soniccyclone/necklace][github.com/soniccyclone/necklace]]
+** *necklace* — Agentic spec-driven development toolkit [[https://soniccyclone.github.io/necklace/][soniccyclone.github.io/necklace]]
 - Packaged a spec-driven development process as installable agent skills for four coding agents
 
 ** *Shell Eco-Marathon Supermileage* — Car metric data aggregation dashboard =2016 – 2017=
