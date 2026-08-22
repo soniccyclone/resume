@@ -7,8 +7,8 @@
 Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/nathanjamesbarlow][linkedin.com/in/nathanjamesbarlow]] • [[https://github.com/soniccyclone][github.com/soniccyclone]]
 #+END_CENTER
 
-Quality oriented software engineer with broad experience crafting code, from N-tier apps to multi-agent RAG systems.
-I teach my agents to work intelligently: creating specs out of research by exercising real code paths rather than reading source code alone, then designing vertical slices into CUJs that explicitly have attached tests closing them out.
+Thirteen years of production code, from N-tier apps to multi-agent RAG systems.
+I teach my agents to work intelligently: specs built by exercising real code paths rather than reading source code alone, then vertical slices that each name the tests closing them.
 
 * Experience
 ** *Nearform* — Senior Software Engineer =2025 – Present=
