@@ -29,7 +29,7 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 
 ** *Milliman IntelliScript* — Software Developer =2021 – 2024=
 - Owned the Strangler Fig migration moving the Curv group health underwriting engine onto AWS
-- Enabled new cloud services to read legacy on premise databases, migrating one bounded context at a time
+- Enabled new cloud services to read legacy on premise databases
 - Implemented multiple microservices in an event-driven system, using RabbitMQ and SQS
 - Improved observability by instrumenting microservices with Datadog
 
