@@ -8,16 +8,16 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 #+END_CENTER
 
 * Skills
-- *AI/ML:* Beads, CrewAI, RAG, AI Native Engineering, AI Workflow Orchestration
+- *AI/ML:* AI Workflow Orchestration, Beads, CrewAI, RAG, Spec Driven Development
 - *Languages:* Bash, C, C#, C++, Go, Java, JavaScript, Python, SQL, TypeScript, x86 Assembly
-- *Infrastructure:* AWS, Azure, Databricks, Docker, Grafana, GCP, Git, Kubernetes, Prometheus, RabbitMQ, Terraform
+- *Infrastructure:* AWS, Azure, Databricks, Docker, GCP, Git, Grafana, Kubernetes, Prometheus, RabbitMQ, Terraform
 - *Web:* CSS, HTML, Node.js, OpenAPI, React
 
 * Experience
 ** *Nearform* — Senior Software Engineer =2025 – Present=
 - Built a CrewAI chat agent with multi-user global memories, backed by an agentic healthcare payor policy search engine
 - Shipped Databricks role-based access control as the prior team offboarded, then became the engine's primary maintainer
-- Designed the agentic and classical RAG pipelines backing it
+- Designed the agentic and classical RAG pipelines powering it
 - Adapted the single run workflow into a batch processing system, cutting a one week manual process to two hours
 - Rewrote the Databricks app from Streamlit to React+FastAPI, doubling UI responsiveness
 
