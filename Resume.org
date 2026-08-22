@@ -10,7 +10,7 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 * Skills
 - *AI/ML:* AI Workflow Orchestration, Beads, CrewAI, RAG, Spec Driven Development
 - *Languages:* Bash, C, C#, C++, Go, Java, JavaScript, Python, SQL, TypeScript, x86 Assembly
-- *Infrastructure:* AWS, Azure, Databricks, Docker, GCP, Git, Grafana, Kubernetes, Prometheus, RabbitMQ, Terraform
+- *Infrastructure:* AWS, Azure, Databricks, Datadog, Docker, GCP, Grafana, Kubernetes, Prometheus, RabbitMQ, Terraform
 - *Web:* CSS, HTML, Node.js, OpenAPI, React
 
 * Experience
@@ -31,7 +31,6 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 - Owned the Strangler Fig migration moving the Curv group health underwriting engine onto AWS
 - Enabled new cloud services to read legacy on premise databases
 - Implemented multiple microservices in an event-driven system, using RabbitMQ and SQS
-- Improved observability by instrumenting microservices with Datadog
 
 ** *Radiance Technologies* — Modeling & Simulation Engineer =2021=
 - Developed extensions to physics based models in C++ for AFSIM
