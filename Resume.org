@@ -15,7 +15,7 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 
 * Experience
 ** *Nearform* — Senior Software Engineer =2025 – Present=
-- Built a CrewAI chat agent with multi-user global memories, layered on an agentic search engine for healthcare payor policy lookup
+- Built a CrewAI chat agent with multi-user global memories, backed by an agentic healthcare payor policy search engine
 - Shipped Databricks role-based access control as the prior team offboarded, then became the engine's primary maintainer
 - Designed the agentic and classical RAG pipelines backing it
 - Adapted the single run workflow into a batch processing system, cutting a one week manual process to two hours
