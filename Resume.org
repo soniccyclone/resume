@@ -7,12 +7,6 @@
 Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/nathanjamesbarlow][linkedin.com/in/nathanjamesbarlow]] • [[https://github.com/soniccyclone][github.com/soniccyclone]]
 #+END_CENTER
 
-* Skills
-- *AI/ML:* AI Workflow Orchestration, Beads, CrewAI, RAG, Spec Driven Development
-- *Languages:* Bash, C, C#, C++, Go, Java, JavaScript, Python, SQL, TypeScript, x86 Assembly
-- *Infrastructure:* AWS, Azure, Databricks, Datadog, Docker, GCP, Grafana, Kubernetes, Prometheus, RabbitMQ, Terraform
-- *Web:* CSS, HTML, Node.js, OpenAPI, React
-
 * Experience
 ** *Nearform* — Senior Software Engineer =2025 – Present=
 - Built a CrewAI chat agent with multi-user global memories, backed by an agentic healthcare payor policy search engine
@@ -53,3 +47,9 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 
 * Education
 ** *Cedarville University* — B.S. Computer Science, Specialization in Cyber Operations =2015 – 2019=
+
+* Skills
+- *AI/ML:* AI Workflow Orchestration, Beads, CrewAI, RAG, Spec Driven Development
+- *Languages:* Bash, C, C#, C++, Go, Java, JavaScript, Python, SQL, TypeScript, x86 Assembly
+- *Infrastructure:* AWS, Azure, Databricks, Datadog, Docker, GCP, Grafana, Kubernetes, Prometheus, RabbitMQ, Terraform
+- *Web:* CSS, HTML, Node.js, OpenAPI, React
