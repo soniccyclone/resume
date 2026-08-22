@@ -1,4 +1,13 @@
-/* Resume stylesheet — used by both GitHub Pages and weasyprint PDF render */
+/* Resume stylesheet — used by both GitHub Pages and weasyprint PDF render.
+ *
+ * Every size is expressed in rem against the root, so the whole document is a
+ * single scale with one knob. Screen scales that knob off the reader default;
+ * print pins the root to 10pt, where 1in == 7.2rem and the layout lands on
+ * letter paper exactly as authored. */
+
+/* Screen: 112.5% of the reader default (~18px), so the page reads as a
+ * document rather than fine print. This is the only knob for web scale. */
+html { font-size: 112.5%; }
 
 @page {
   size: letter;
@@ -9,30 +18,30 @@
 
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 10pt;
+  font-size: 1rem;
   line-height: 1.28;
   color: #222;
-  max-width: 8.5in;
+  max-width: 61.2rem;
   margin: 0 auto;
-  padding: 0.5in 0.6in;
+  padding: 3.6rem 4.32rem;
 }
 
 /* ---------- Header / Title ---------- */
 
-header { text-align: center; margin-bottom: 0.05in; }
+header { text-align: center; margin-bottom: 0.36rem; }
 
 header .title {
-  font-size: 17pt;
+  font-size: 1.7rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.012in;
+  letter-spacing: 0.0864rem;
   border-bottom: none;
   padding: 0;
   margin: 0;
 }
 
 header .subtitle {
-  font-size: 11.5pt;
+  font-size: 1.15rem;
   font-weight: 400;
   color: #555;
   margin: 2px 0 0 0;
@@ -41,23 +50,23 @@ header .subtitle {
 /* ---------- Section headings (h1) ---------- */
 
 h1 {
-  font-size: 11pt;
+  font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04in;
+  letter-spacing: 0.288rem;
   border-bottom: 1px solid #333;
   padding-bottom: 2px;
-  margin-top: 0.10in;
-  margin-bottom: 0.04in;
+  margin-top: 0.72rem;
+  margin-bottom: 0.288rem;
 }
 
 /* ---------- Job / Project headings (h2) ---------- */
 
 h2 {
-  font-size: 10.5pt;
+  font-size: 1.05rem;
   font-weight: 400;
   color: #333;
-  margin-top: 0.07in;
+  margin-top: 0.504rem;
   margin-bottom: 1px;
 }
 
@@ -68,12 +77,12 @@ h2 code,
 h2 a {
   font-family: inherit;
   font-weight: 400;
-  font-size: 10pt;
+  font-size: 1rem;
   background: none;
   color: #444;
   white-space: nowrap;
   float: right;
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 
 h2 a { color: #2255aa; }
@@ -83,9 +92,9 @@ h2 a { color: #2255aa; }
 .CENTER p,
 .center p {
   text-align: center;
-  font-size: 9.5pt;
+  font-size: 0.95rem;
   color: #555;
-  margin-bottom: 0.1in;
+  margin-bottom: 0.72rem;
 }
 
 .CENTER a,
@@ -96,21 +105,21 @@ h2 a { color: #2255aa; }
 /* ---------- Summary lede (bare paragraph under the contact line) ---------- */
 
 .CENTER + p {
-  font-size: 10pt;
+  font-size: 1rem;
   color: #333;
-  margin-bottom: 0.06in;
+  margin-bottom: 0.432rem;
 }
 
 /* ---------- Lists (bullets) ---------- */
 
 ul {
   list-style: disc;
-  margin-left: 0.22in;
-  margin-bottom: 0.03in;
+  margin-left: 1.584rem;
+  margin-bottom: 0.216rem;
 }
 
 li {
-  font-size: 10pt;
+  font-size: 1rem;
   margin-bottom: 1px;
 }
 
@@ -120,16 +129,17 @@ li {
   margin-left: 0;
 }
 
-#skills + ul li { font-size: 9.5pt; }
+#skills + ul li { font-size: 0.95rem; }
 
 /* ---------- Links ---------- */
 
 a { color: #2255aa; text-decoration: none; }
 
-/* ---------- Print / PDF tweaks ---------- */
+/* ---------- Print / PDF ---------- */
 
 @media print {
-  body { padding: 0; }
+  html { font-size: 10pt; }
+  body { padding: 0; max-width: none; }
   a, h2 a, .CENTER a, .center a { color: #222; }
   h1 { break-after: avoid; }
   h2 { break-after: avoid; }
