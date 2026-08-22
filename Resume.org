@@ -7,7 +7,7 @@
 Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/nathanjamesbarlow][linkedin.com/in/nathanjamesbarlow]] • [[https://github.com/soniccyclone][github.com/soniccyclone]]
 #+END_CENTER
 
-Thirteen years of production code, from x86 and C++ simulation to multi-agent retrieval systems. I work spec first: research by running real code paths rather than reading source, then vertical slices that name their own tests.
+Thirteen years of production code, from N-tier business applications to multi-agent retrieval systems. I work spec first: research by running real code paths rather than reading source, then vertical slices that name their own tests.
 
 * Experience
 ** *Nearform* — Senior Software Engineer =2025 – Present=
