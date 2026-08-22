@@ -106,11 +106,13 @@ li {
   margin-bottom: 1px;
 }
 
-/* Skills list — no bullets */
+/* Skills list — no bullets, and set at reference-row size like the contact line */
 #skills + ul {
   list-style: none;
   margin-left: 0;
 }
+
+#skills + ul li { font-size: 9.5pt; }
 
 /* ---------- Links ---------- */
 
