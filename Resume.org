@@ -25,7 +25,6 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 ** *Stanza Systems* — Software Engineer =2024 – 2025=
 - Built the C# SDK for a Go rate limiting service end to end, shipping release automation in its first version
 - Extended the rate limiter service itself, owning configuration management and expanding test coverage
-- Aligned frontend and backend teams over an OpenAPI spec
 - Developed a time series based data lakehouse for analysis of operations data using Dask and Python
 - Adapted the data lakehouse into an asset management system and handled setting up devops on Azure
 
