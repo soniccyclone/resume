@@ -34,7 +34,7 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 
 ** *Radiance Technologies* — Modeling & Simulation Engineer =2021=
 - Developed extensions to physics based models in C++ for AFSIM
-- Created simulation data ingestion pipelines with Python to support analysis in Dakota and Excel
+- Created simulation data ingestion pipelines in Python to support analysis in Dakota and Excel
 
 ** *Epic Systems* — Software Intern =2018=
 - Developed an interactive prototype for a cloud-based text template backup system within Epic Hyperspace
