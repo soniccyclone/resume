@@ -36,10 +36,7 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 - Developed extensions to physics based models in C++ for AFSIM
 - Created simulation data ingestion pipelines in Python to support analysis in Dakota and Excel
 
-** *Epic Systems* — Software Intern =2018=
-- Developed an interactive prototype for a cloud-based text template backup system within Epic Hyperspace
-
-** *iit/SourceTech* — Software Developer =2013 – 2021=
+** *iit/SourceTech* — Intern to Software Developer =2013 – 2021=
 - Led the automation first DevOps cultural shift within engineering org, enabling continuous deployments
 - Introduced a Model-View-Presenter variant across the legacy suite, enabling test automation for WinForms clients
 - Doubled performance of order monitoring system while increasing granularity of reported data
