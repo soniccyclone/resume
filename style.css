@@ -10,7 +10,7 @@
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 10pt;
-  line-height: 1.24;
+  line-height: 1.28;
   color: #222;
   max-width: 8.5in;
   margin: 0 auto;
@@ -47,7 +47,7 @@ h1 {
   letter-spacing: 0.04in;
   border-bottom: 1px solid #333;
   padding-bottom: 2px;
-  margin-top: 0.09in;
+  margin-top: 0.10in;
   margin-bottom: 0.04in;
 }
 
@@ -103,7 +103,7 @@ ul {
 
 li {
   font-size: 10pt;
-  margin-bottom: 0;
+  margin-bottom: 1px;
 }
 
 /* Skills list — no bullets */
