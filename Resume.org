@@ -19,8 +19,8 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 - Created a CrewAI chat agent on top of that engine, with multi-user global memories
 - Designed agentic and classical RAG pipelines to back the search engine
 - Adapted the single run search engine workflow into a batch processing system, cutting a one week manual process to two hours
-- Rewrote the databricks app from Streamlit to React+FastAPI, doubling UI responsiveness
-- Shipped databricks role-based access control as the prior team offboarded, then became primary maintainer
+- Rewrote the Databricks app from Streamlit to React+FastAPI, doubling UI responsiveness
+- Shipped Databricks role-based access control as the prior team offboarded, then became primary maintainer
 
 ** *Stanza Systems* — Software Engineer =2024 – 2025=
 - Built the C# SDK for a Go rate limiting service end to end, shipping release automation in its first version
