@@ -3,62 +3,56 @@
 #+AUTHOR: Nathan Barlow
 #+OPTIONS: toc:nil num:nil author:nil title:nil
 
-* Contact
+#+BEGIN_CENTER
 Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/nathanjamesbarlow][linkedin.com/in/nathanjamesbarlow]] • [[https://github.com/soniccyclone][github.com/soniccyclone]]
+#+END_CENTER
 
-* Skills
-- *AI/ML:* Beads, CrewAI, OpenSpec, RAG, AI Native Engineering, AI Workflow Orchestration
-- *Languages:* Bash, C, C#, C++, Go, Java, JavaScript, Python, SQL, TypeScript, x86 Assembly
-- *Infrastructure:* AWS, Azure, Databricks, Docker, Grafana, GCP, Git, Kubernetes, Prometheus, RabbitMQ, Terraform
-- *Web:* CSS, HTML, OpenAPI
+Quality oriented software engineer with broad experience crafting code, from N-tier apps to multi-agent RAG systems.
+I teach my agents to work intelligently: specs built by exercising real code paths rather than reading source code alone, then vertical slices into CUJs that each name the tests closing them.
 
 * Experience
-** Nearform =2025 – Present=
-/Senior Software Engineer/
-- Created a CrewAI backed chat agent with internal knowledge base lookup as well as agentic web search tools
-- Worked on an agentic search engine for healthcare payor policy lookup
-- Designed multi-agent pipelines decomposing natural language queries into search, retrieval, and synthesis stages
+** *Nearform* — Senior Software Engineer =2025 – Present=
+- Built a CrewAI chat agent with multi-user global memories, backed by an agentic healthcare payor policy search engine
+- Shipped Databricks role-based access control as the prior team offboarded, then became the engine's primary maintainer
+- Designed agentic and classical RAG pipelines powering it
+- Adapted the single run workflow into a batch processing system, cutting a one week manual process to two hours
+- Rewrote the Databricks app from Streamlit to React+FastAPI, doubling UI responsiveness
 
-** Stanza Systems =2024 – 2025=
-/Software Engineer/
-- Developed a high performance rate limiter as a service in Go
-- Created a C# SDK for the rate limiter service, with deployment automation in the first release
-- Aligned frontend and backend teams over an OpenAPI spec
+** *Stanza Systems* — Software Engineer =2024 – 2025=
+- Built the C# SDK for a Go rate limiting service end to end, shipping release automation in its first version
+- Extended the rate limiter service itself, owning configuration management and expanding test coverage
 - Developed a time series based data lakehouse for analysis of operations data using Dask and Python
 - Adapted the data lakehouse into an asset management system and handled setting up devops on Azure
 
-** Milliman IntelliScript =2021 – 2024=
-/Software Developer/
-- Modernized the Curv group health underwriting engine into a cloud native distributed system on AWS
-- Enabled new cloud services to utilize legacy on premise databases with the Strangler Fig pattern
+** *Milliman IntelliScript* — Software Developer =2021 – 2024=
+- Owned the Strangler Fig migration moving the Curv group health underwriting engine onto AWS
+- Enabled new cloud services to read legacy on premise databases
 - Implemented multiple microservices in an event-driven system, using RabbitMQ and SQS
-- Improved observability by instrumenting microservices with Datadog
 
-** Radiance Technologies =2021=
-/Modeling & Simulation Engineer/
+** *Radiance Technologies* — Modeling & Simulation Engineer =2021=
 - Developed extensions to physics based models in C++ for AFSIM
-- Created simulation data ingestion pipelines with Python to support analysis in Dakota and Excel
+- Created simulation data ingestion pipelines in Python to support analysis in Dakota and Excel
 
-** Epic Systems =2018=
-/Software Intern/
-- Developed an interactive prototype for a cloud-based text template backup system within Epic Hyperspace
-
-** iit/SourceTech =2013 – 2021=
-/Software Developer/
-- Lead the automation first DevOps cultural shift within engineering org, enabling continuous deployments
-- Increased development velocity across the legacy application suite through the introduction of the Model-View-Presenter pattern, enabling test automation for these legacy applications
+** *iit/SourceTech* — Software Developer =2013 – 2021=
+- Led the automation first DevOps cultural shift within engineering org, enabling continuous deployments
+- Introduced a Model-View-Presenter variant across the legacy suite, enabling test automation for WinForms clients
 - Doubled performance of order monitoring system while increasing granularity of reported data
 
-* Education
-** Cedarville University, Cedarville, OH =2015 – 2019=
-/Computer Science with a Specialization in Cyber Operations, B.S./
-
 * Projects
-** Shell Eco-Marathon Supermileage =2016 – 2017=
-- Made a car metric data aggregation dashboard, utilizing Web Sockets for real time reporting
+** *necklace* — Agentic spec-driven development toolkit [[https://soniccyclone.github.io/necklace/][soniccyclone.github.io/necklace]]
+- Formalized my personal spec-driven development process into installable skills for various coding agents
 
-** LightSys Spring Break Code-a-Thon for Missions =2017 – 2018=
-- Developed and released the Joshua Project Data Gathering app in a four day hackathon
+** *Shell Eco-Marathon Supermileage* — Car metric data aggregation dashboard =2016 – 2017=
+- Built real time car telemetry reporting using Web Sockets and Google Maps
 
-** FIRST LEGO League =2008 – 2009=
-- Increased development velocity and enhanced competition performance by developing a library module system for LEGO Mindstorms NXT programs
+** *LightSys Code-a-Thon for Missions* — Joshua Project Data Gathering app =2017 – 2018=
+- Developed and released the application during a four day hackathon
+
+* Education
+** *Cedarville University* — B.S. Computer Science, Specialization in Cyber Operations =2015 – 2019=
+
+* Skills
+- *AI/ML:* AI Workflow Orchestration, Beads, CrewAI, RAG, Spec Driven Development
+- *Languages:* Bash, C, C#, C++, Go, Java, JavaScript, Python, SQL, TypeScript, x86 Assembly
+- *Infrastructure:* AWS, Azure, Databricks, Datadog, Docker, GCP, Grafana, Kubernetes, Prometheus, RabbitMQ, Terraform
+- *Web:* CSS, HTML, Node.js, OpenAPI, React
