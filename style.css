@@ -93,6 +93,14 @@ h2 a { color: #2255aa; }
 .CENTER a:hover,
 .center a:hover { text-decoration: underline; }
 
+/* ---------- Summary lede (bare paragraph under the contact line) ---------- */
+
+.CENTER + p {
+  font-size: 10pt;
+  color: #333;
+  margin-bottom: 0.06in;
+}
+
 /* ---------- Lists (bullets) ---------- */
 
 ul {
