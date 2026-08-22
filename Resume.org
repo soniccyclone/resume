@@ -43,13 +43,13 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 
 * Projects
 ** *necklace* — Agentic spec-driven development toolkit [[https://soniccyclone.github.io/necklace/][soniccyclone.github.io/necklace]]
-- Packaged a spec-driven development process as installable agent skills for four coding agents
+- Formalized my personal spec-driven development process into installable skills for various coding agents
 
 ** *Shell Eco-Marathon Supermileage* — Car metric data aggregation dashboard =2016 – 2017=
-- Built real time telemetry reporting over Web Sockets
+- Built real time car telemetry reporting using Web Sockets and Google Maps
 
 ** *LightSys Code-a-Thon for Missions* — Joshua Project Data Gathering app =2017 – 2018=
-- Developed and released the application within a four day hackathon
+- Developed and released the application during a four day hackathon
 
 * Education
 ** *Cedarville University* — B.S. Computer Science, Specialization in Cyber Operations =2015 – 2019=
