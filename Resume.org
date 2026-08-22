@@ -28,8 +28,8 @@ Remote — US Central • nathanjbarlow@gmail.com • [[https://linkedin.com/in/
 - Adapted the data lakehouse into an asset management system and handled setting up devops on Azure
 
 ** *Milliman IntelliScript* — Software Developer =2021 – 2024=
-- Modernized the Curv group health underwriting engine into a cloud native distributed system on AWS
-- Enabled new cloud services to utilize legacy on premise databases with the Strangler Fig pattern
+- Owned the Strangler Fig migration moving the Curv group health underwriting engine onto AWS
+- Enabled new cloud services to read legacy on premise databases, migrating one bounded context at a time
 - Implemented multiple microservices in an event-driven system, using RabbitMQ and SQS
 - Improved observability by instrumenting microservices with Datadog
 
